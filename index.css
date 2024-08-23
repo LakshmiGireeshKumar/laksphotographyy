@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Tangerine:wght@400;700&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Meow+Script&family=PT+Mono&display=swap'); */
+
+
+
+*{
+    margin: 0px;
+
+}
+#brandd{
+    font-family: "Tangerine", cursive;
+    color:white;
+    
+
+    
+}
+/* .nv
+{
+    background-color: black;
+    opacity: 20%;
+} */
+.op
+{
+    opacity: 100%;
+}
+#navvvv{
+    position: sticky;
+    height:100px ;
+
+}
+#linkclr{
+    color: white;
+    transition:0.4s;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    opacity: 100%;
+
+
+
+
+}
+#linkclr:hover{
+    transform: scale(1.3);
+    color: black;
+    text-decoration:underline;
+}
+
+.headdd{
+    color:white;
+    top: 25%;
+    left: 15%;
+    position:absolute;
+    font-family: "Tangerine", cursive;
+    font-size: 500%;
+
+
+}
+
+.bg-image{
+    position: relative;
+}
+.para{
+    margin-top:5%;
+    color:black;
+    padding: 10px;
+    font-family: "Cormorant Garamond", serif;
+    margin-bottom: 5%;
+
+
+
+
+}
+.suni{
+    /* background-color:rgb(198, 195, 195); */
+    height: 60vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://papers.co/wallpaper/papers.co-vs30-abstract-background-line-shape-gray-minimal3d-pattern-bw-dark-29-wallpaper.jpg');
+
+}
+.imgg{
+    margin-left: 130px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.aboutt{
+    margin-top: 18px;
+    display:flex;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    gap: 5px;
+}
+.caroo{
+    height: 80vh;
+}
+.carouu{
+    height: 80vh;
+
+}
+.carouu h2{
+    color:white;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+}
+.carouu h3{
+    font-size: 40px;
+    font-family: "Cormorant Garamond", serif;
+    color: black;
+
+}
+.carouu span{
+    color: azure;
+}
+.carouu h4{
+    color: azure;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+}
+.carouu h5{
+    font-size: 35px;
+    font-family: "Cormorant Garamond", serif;
+    color:white;
+}
+.carouu h6{
+    color:white;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+
+}
+.sectionhead{
+    background-color:rgb(198, 195, 195);
+    
+
+}
+.mainhead {
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px; 
+
+}
+.photo-card-container {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+.photo-card-row{
+    display: flex;
+    justify-content: center;
+
+
+}
+.photocard {
+    width:350px;
+    height: 400px;
+    margin: 36px 18px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+     box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    margin-bottom: 5px;
+
+    
+    
+}
+.photo1{
+    height:100%;
+    width: 100%;
+}
+/* .image-gallery{ */
+    /* margin-left: 50px;  */
+     /* background-color: rgb(33, 33, 33); */ 
+    /* margin-right: 50px;   */
+.imggg-fooott{
+    background-color: white;
+}
+/* .footer-bottom{ */
+    /* text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    gap: 20px;
+    color: black;
+} */
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer-section h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 50px;
+    margin-left:50px ;
+
+}
+
+.footer .footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .footer-section ul li {
+    margin-bottom: 10px;
+}
+
+ .footer .footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 50px;
+    margin-left:50px ;
+} 
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 3px;
+    font-size: 15px;
+    color: #bbb;
+    background-color: #1a1a1a;
+
+
+}
+
+
+.footer-bottom .social-icons {
+    margin-top: 20px;
+    color: #fff;
+}
+.social-icons{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    font-size: 20px;
+}
+.parallax-section {
+    height: 70vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.clientsayy
+{
+    background-image: url('https://papers.co/wallpaper/papers.co-vs30-abstract-background-line-shape-gray-minimal3d-pattern-bw-dark-29-wallpaper.jpg');
+}
+.csm
+{
+    color: white;
+    font-family: "PT Mono", monospace;
+
+}
+.css
+{
+    font-size: 28px;
+}
+
+@media (max-width: 768px) {
+    .footer .footer-section {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+}
